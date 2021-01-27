@@ -1,38 +1,38 @@
 #org @SpikesLayString
-Spikes were scattered all\naround [FD][35] team!
+尖刺分布在[FD][35]队伍附近!
 
 #org @ToxicSpikesLayString
-Poison spikes were scattered all\naround [FD][35] team!
+毒刺分布在[FD][35]队伍附近!
 
 #org @StealthRockLayString
-Pointed stones float in the air\naround [FD][35] team!
+尖石漂浮在[FD][35]队伍附近!
 
 #org @StickyWebLayString
-A sticky web has been laid out\naround [FD][35] team!
+黏黏网分布在[FD][35]队伍附近!
 
 #org @gText_SteelsurgeLay
-Sharp pieces of steel started\nfloating around [FD][35] team!
+锋利的铁片分布在[FD][35]队伍附近!
 
 #org @RemovedEntryHazardsString
-The entry hazards around\n[FD][36] side were blown away!
+[FD][36]被吹走了!
 
 #org @RemovedEntryHazardsTargetSideString
-The entry hazards around\n[FD][35] side were blown away!
+[FD][35]被吹走了!
 
 #org @gText_HurtBySpikes
-[TARGET] is hurt\nby the Spikes!
+[TARGET]被尖刺攻击了!
 
 #org @gText_HurtByStealthRock
-Pointed stones dug into\n[TARGET]!
+漂浮的尖石伤害了[TARGET]!
 
 #org @gText_HurtBySteelsurge
-The sharp steel bit into\n[TARGET]!
+锋利的铁片伤害了[TARGET]!
 
 #org @gText_AbsorbedToxicSpikes
-The Toxic Spikes disappeared from\naround [TARGET]'s feet!
+毒刺从[TARGET]的周围消失了!
 
 #org @gText_CaughtInStickyWeb
-[TARGET] was caught\nin a Sticky Web!
+[TARGET]被黏黏网粘着了!
 
 #org @gText_HazardsBlownAway
-The hazards were blown away from\naround [ATTACKER]!
+[ATTACKER]被吹走了!
