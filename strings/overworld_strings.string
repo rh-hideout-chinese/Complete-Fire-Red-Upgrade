@@ -1,221 +1,221 @@
 #org @gText_ChangeSaveType
-WRONG SAVE TYPE!\nPlease change to Flash 128k.
+保存错误！/n请将保存类型更改为128k。
 
 #org @gText_MainMenuEnableRTC
-WARNING!\pThe correct system time could\nnot be read.\pEnable the Real Time Clock (RTC),\nand make sure the time is correct.
+警告！\n无法读取系统时间\p请开启实时时钟\n并确定时间正确。
 
 #org @gText_UsedVar2WildStronger
-[BUFFER][01] used the\n[BUFFER][03].\pThe chance of encountering strong\nwild Pok\emon in this area increased.[FC][09]
+[BUFFER][01] 使用了\n[BUFFER][03].\p遇见等级高的宝可梦\n几率将提高[FC][09]。
 
 #org @gText_UsedVar2WildWeaker
-[BUFFER][01] used the\n[BUFFER][03].\pThe chance of encountering weak\nwild Pok\emon in this area increased.[FC][09]
+[BUFFER][01] 使用了\n[BUFFER][03].\p遇见等级低的宝可梦\n几率将提高[FC][09]。
 
 #org @gText_SecondBagItemCanBeRegisteredToL
-A second item in the Cube can be\nregistered to [L_BUTTON] for easy use.
+可以将多维数据集中\n的第二项注册到[L_BUTTON]\n以方便使用.
 
 #org @gText_AutoRunEnable
-[GREEN]Auto-run[BLACK] has been [GREEN]enabled[BLACK].
+[GREEN]正在运行[BLACK]，[GREEN]已启用[BLACK]。
 
 #org @gText_AutoRunDisable
-[GREEN]Auto-run[BLACK] has been [GREEN]disabled[BLACK].
+[GREEN]正在运行[BLACK]，[GREEN]未启用[BLACK]。
 
 #org @gText_BikeTurboBoostEnable
-[GREEN]Turbo boost[BLACK] has been [GREEN]activated[BLACK].
+[GREEN]正在提升[BLACK]，[GREEN]已激活[BLACK]。
 
 #org @gText_BikeTurboBoostDisable
-[GREEN]Turbo boost[BLACK] has been [GREEN]deactivated[BLACK].
+[GREEN]正在提升[BLACK]，[GREEN]未激活[BLACK]。
 
 #org @gText_PoisonSurvial
-[BUFFER][02] survived the Poison.\nThe Poison faded away!
+[BUFFER][02]的中毒状态解除了！
 
 #org @gText_ThrowInOnePremierBall
-You also get a [BUFFER][03] as\nan added bonus.[FC][09]
+你将获得[BUFFER][03] 作为额外奖励。[FC][09]
 
 #org @gText_ThrowInPremierBalls
-You also get [BUFFER][02] [BUFFER][03]s as\nan added bonus.[FC][09]
+你将获得[BUFFER][02]与[BUFFER][03]\n作为奖励。[FC][09]
 
 #org @gText_AskUseAnotherRepel
-The repellent's effect wore off!\nWould you like to use another one?
+除虫喷雾剂效果消失了!\n你想要接着使用吗?
 
 #org @gText_UsedAnotherRepel
-[BUFFER][01] used a [BUFFER][04].
+[BUFFER][01]使用了[BUFFER][04].
 
 #org @gText_RepelWoreOff
-The repellent's effect wore off!
+除虫喷雾剂效果消失了!
 
 #org @gText_FoundMultipleItems
-[PLAYER] found [BUFFER1] [BUFFER2]!
+[PLAYER]找到了[BUFFER1]与[BUFFER2]!
 
 #org @gText_ObtainedMultipleItems
-Obtained [BUFFER1] [BUFFER2]!
+获得了[BUFFER1] [BUFFER2]!
 
 #org @gText_ObtainedTMHM
-Obtained a [BUFFER][03]!\nIt contains [BUFFER][02].
-
-#org @gText_UseWhichRegisteredItem
-Use which item?
+获得了[BUFFER][03]!\n它附带了[BUFFER][02]。
 
 #org @gText_ScurriedToNearestHealer
-[PLAYER] scurried to the nearest healer,\nprotecting the exhausted and fainted\nPok\emon from further harm[.]\p
+[PLAYER]奔跑到了附近的宝可梦中心\n他正在保护受伤的宝可梦\n以免宝可梦受到伤害。\p
+
+#org @gText_AllJustADream
+这只是一个梦\p
 
 #org @gText_WantToScaleCliff
-The wall is very rocky[.]\nWould you like to use [BUFFER2]?
+墙壁很斜。\n你要使用[BUFFER2]吗?
 
 #org @gText_RockIsRocky
-The wall is very rocky[.]\nWill a Pok\emon's move scale it?
+墙壁很斜。\n宝可梦的速度足够吗?
 
 #org @gText_DefogBlewAwayFog
-[BUFFER1] blew away the fog!
+[BUFFER1]吹散了雾!
 
 #org @gText_WaterDyed
-The water is dyed a deep blue[.]
+水变清洁了。
 
 #org @gText_WaterMurkyBrown
-The water is a murky brown[.]
+水很肮脏。
 
 #org @gText_WaterMurkyBrownUseSurf
-The water is a murky brown[.]\nWould you like to Surf?
+水很肮脏。\n你想冲浪吗?
 
 #org @gText_LikeToLavaSurf
-The magma glistens a crimson red[.]\nWould you like to surf on it?
+火红色的岩浆\n你想冲浪吗?
 
 #org @gText_LavaSurfedWith
-[BUFFER1] started surfing on\nthe magma!
+[BUFFER1]开始在岩浆上冲浪！
 
 #org @gText_LavaDyed
-The magma glistens a crimson red[.]
+火红色的岩浆
 
 #org @gText_WantToDive
-The sea is deep here.\nWould you like to use [BUFFER2]?
+这里的海很深。\n你要使用[BUFFER2]吗?
 
 #org @gText_WantToSurface
-Light is filtering down from above.\nWould you like to use [BUFFER2]?
+上面有光线\n你要使用[BUFFER2]吗?
 
 #org @gText_CantDive
-The sea is deep here. A Pok\emon\nmay be able to go underwater.
+这里的水很深\n宝可梦可以潜下去。
 
 #org @gText_CantSurface
-Light is filtering down from above.\nA Pok\emon may be able to surface.
+上面有光线，\n宝可梦可以浮上水面
 
 #org @gText_DoorIsLocked
-The door is locked.
+这个门是锁着的。
 
 #org @gText_PsychicBarrier
-There appears to be some sort of\nPsychic barrier in the way.
+似乎有某种\n心理障碍捆绑着他。
 
 #org @gText_ClimbLadder
-Would you like to climb the\nladder?
+你想要爬上这个梯子?
 
 #org @gText_CantReachLadder
-You can't reach the ladder from\nhere!
+你无法从这个梯子到达另一端!
 
 #org @gText_FollowNarrowPath
-Look!\nYou've found a narrow path.\pWill you follow it?
+快看!\n你找到了一条狭窄的路\p你会关注他吗?
 
 #org @gText_FollowNarrowPathNowhere
-The narrow path went nowhere.
+狭窄的路没有出口。
 
 #org @gText_WantToUseHeadbutt
-It's a moderately sized tree.\nWould you like to use Headbutt?
+这是一颗中等大小的树.\n你要使用头槌?
 
 #org @gText_TreeCanBeHeadbutted
-There's a formidable tree that\nlooks like it can be headbutted!
+有一颗强大的树\n好像可以被撞倒!
 
 #org @gText_StartMining
-The wall is bulging slightly.\nTry digging into it?
+墙壁稍微凸起\n你要深入研究吗?
 
 //Mart Strings
 
 #org @gText_SingleTmBuy
-[BUFFER][02] [BUFFER][04],\nThat will be \$[BUFFER][03]. Okay?
+[BUFFER][02] [BUFFER][04],\n将会\$[BUFFER][03]。可以吗?
 
 #org @gText_AlreadyOwnTM
-You already own that TM.[FC][09]
+你已经拥有这个技能机[FC][09]
 
 //Bag Strings
 
 #org @gText_WantToSortItems
-Sort this pocket's\nitems how?
+整理这个背包的物品\n怎么样?
 
 #org @gMenuText_ByType
-Type
+类型
 
 #org @gMenuText_ByName
-Name
+名字
 
 #org @gMenuText_ByMost
-Most
+多数
 
 #org @gMenuText_ByLeast
-Least
+最小
 
 #org @gMenuText_ByAmount
-Amount
+数量
 
 #org @gText_name
-name
+名字
 
 #org @gText_type
-type
+类型
 
 #org @gText_most
-most
+多数
 
 #org @gText_least
-least
+最小
 
 #org @gText_amount
-amount
+数量
 
 #org @gText_SortItemsBy
-Sort items by\n[BUFFER1]?
+按照[BUFFER1]排序物品?
 
 #org @gText_ItemsSortedBy
-Items sorted by\n[BUFFER1]!
+按照[BUFFER1]排序物品!
 
 //Battle Tower Pokemon Select
 
 #org @gOtherText_NoMoreOnePoke
-No more than one Pok\emon\nmay enter.[FC][09]
+最多只能使用一个\n宝可梦。[FC][09]
 
 #org @gOtherText_NoMoreFourPoke
-No more than four Pok\emon\nmay enter.[FC][09]
+最多只能使用四个\n宝可梦。[FC][09]
 
 #org @gOtherText_NoMoreFivePoke
-No more than five Pok\emon\nmay enter.[FC][09]
+最多只能使用五个\n宝可梦。[FC][09]
 
 #org @gText_First
-FIRST
+第一
 
 #org @gText_Second
-SECOND
+第二
 
 #org @gText_Third
-THIRD
+第三
 
 #org @gText_Fourth
-FOURTH
+第四
 
 #org @gText_Fifth
-FIFTH
+第五
 
 #org @gText_Sixth
-SIXTH
+第六
 
 #org @gText_PokemonAreNeeded
-[BUFFER][02] Pok\emon are needed.
+[BUFFER][02]未选择宝可梦。
 
 #org @gText_EnterNumber
-Enter a Number
+输入号码
 
 #org @gText_EnterPhrase
-Enter a Phrase
+输入短语
 
 #org @gText_EnterPassword
-Enter Password
+输入密码
 
 #org @gText_Purchased
-Purchased
+已购买
 
 #org @gText_StopZooming
-Stop zooming!
+停止放大
