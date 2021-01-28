@@ -51,10 +51,10 @@ extern const u8 sText_YourCaps[];
 //Vanilla Strings
 #define BattleText_GhostAppeared (u8*) 0x83FD30D
 #define BattleText_GhostAppearedNoID (u8*) 0x83FD2D9
-#define BattleText_GoTwoPkmn (u8*) 0x83FD466
-#define BattleText_LinkPartnerSentOutPkmnGoPkmn (u8*) 0x83FD4B5
-#define BattleText_GoTwoPkmn (u8*) 0x83FD466
-#define BattleText_GoPkmn (u8*) 0x83FD45E
+#define BattleText_GoTwoPkmn (u8*) 0x8EB2F52
+#define BattleText_LinkPartnerSentOutPkmnGoPkmn (u8*) 0x83FD497
+#define BattleText_GoTwoPkmn (u8*) 0x8EB2F52
+#define BattleText_GoPkmn (u8*) 0x8EB2F31
 #define BattleText_TwoLinkTrainersSentOutPkmn (u8*) 0x83FD41E
 #define BattleText_LinkTrainerSentOutTwoPkmn (u8*) 0x83FD407
 #define BattleText_Trainer1SentOutTwoPkmn (u8*) 0x83FD3C7
@@ -67,8 +67,8 @@ extern const u8 sText_YourCaps[];
 #define BattleText_LinkTrainer2WithdrewPkmn (u8*) 0x83FD545
 #define BattleText_LinkTrainer1WithdrewPkmn (u8*) 0x83FD535
 #define BattleText_Trainer1WithdrewPkmn (u8*) 0x83FD522
-#define BattleText_GoPkmn2 (u8*) 0x83FD475
-#define BattleText_DoItPkmn (u8*) 0x83FD47D
+#define BattleText_GoPkmn2 (u8*) 0x8EB2F9A
+#define BattleText_DoItPkmn (u8*) 0x8EB2F79
 #define BattleText_GoForItPkmn (u8*) 0x83FD488
 #define BattleText_YourFoesWeakGetEmPkmn (u8*) 0x83FD497
 #define BattleText_Trainer1SentOutPkmn2 (u8*) 0x83FD3E4
@@ -76,11 +76,11 @@ extern const u8 sText_YourCaps[];
 #define BattleText_Trainer1SentOutPkmn2 (u8*) 0x83FD3E4
 #define BattleText_LinkTrainerSentOutPkmn2 (u8*) 0x83FD43E
 #define BattleText_Trainer1SentOutPkmn2 (u8*) 0x83FD3E4
-#define BattleText_AttackerUsedX (u8*) 0x83FD57B
+#define BattleText_AttackerUsedX (u8*) 0x8EB304F
 #define BattleText_GotAwaySafely (u8*) 0x83FCC8A
 #define BattleText_TwoWildFled (u8*) 0x83FCD9F
-#define BattleText_C00Fled (u8*) 0x83FE9D4
-#define BattleText_WildFled (u8*) 0x83FCD92
+#define BattleText_C00Fled (u8*) 0x8EB31C1
+#define BattleText_WildFled (u8*) 0x83FCD9F
 #define BattleText_TwoLinkTrainersDefeated (u8*) 0x83FCCF8
 #define BattleText_PlayerLostToTwo (u8*) 0x83FCD27
 #define BattleText_PlayerBattledToDrawVsTwo (u8*) 0x83FCD66
