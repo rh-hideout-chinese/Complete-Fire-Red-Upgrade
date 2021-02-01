@@ -9,7 +9,7 @@ import _io
 
 OFFSET_TO_PUT = 0x900000
 SOURCE_ROM = "BPRE0.gba"
-ROM_NAME = "test.gba"
+ROM_NAME = "冠军之路.gba"
 
 if sys.platform.startswith('win'):
     PathVar = os.environ.get('Path')
