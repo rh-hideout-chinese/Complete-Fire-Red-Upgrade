@@ -52,6 +52,9 @@
 #org @gText_ObtainedTMHM
 获得了[BUFFER][03]!\n它附带了[BUFFER][02]。
 
+#org @gText_UseWhichRegisteredItem
+使用这个道具?
+
 #org @gText_ScurriedToNearestHealer
 [PLAYER]奔跑到了附近的宝可梦中心\n他正在保护受伤的宝可梦\n以免宝可梦受到伤害。\p
 

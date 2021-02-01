@@ -263,7 +263,7 @@ Special
 #org @gText_MaxMoveParalyzeFoes
 麻痹对手
 
-#org @gText_MaxMovePayDay
+#org @gText_MaxMoveConfusePayDay
 混乱敌人与获得金币
 
 #org @gText_MaxMoveCritPlus
@@ -305,7 +305,7 @@ Special
 #org @gText_MaxMoveYawn
 使对手昏昏欲睡
 
-#org @gText_MaxMoveLowerEvasivess
+#org @gText_MaxMoveLowerEvasiveness
 减少逃避战斗的机会
 
 #org @gText_MaxMoveAromatherapy
