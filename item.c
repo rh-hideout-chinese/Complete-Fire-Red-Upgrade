@@ -19,6 +19,7 @@
 #include "../include/new/item.h"
 #include "../include/new/set_z_effect.h"
 
+static const u8 item114[] = {"在宝可梦考古学上非常贵重的骨头。\n可以在商店高价出售。"};
 const struct Item sItem_data[] =
     {
         [0] =
@@ -2076,12 +2077,12 @@ const struct Item sItem_data[] =
         [114] =
             {
 
-                .name = {"????????"},            //道具名字
-                .itemId = 0,                      //道具编号
-                .price = 0,                      //道具价格
+                .name = {"贵重骨头"},            //道具名字
+                .itemId = 114,                      //道具编号
+                .price = 10000,                      //道具价格
                 .holdEffect = 0,                 //携带效果
                 .holdEffectParam = 0,            //携带参数
-                .description = (u8*)0x083DB020, //道具介绍
+                .description = item114, //道具介绍
                 .importance = 0,                 //重要道具
                 .unk19 = 0,              //unk2
                 .pocket = 1,                     //道具口袋
@@ -6754,6 +6755,42 @@ const struct Item sItem_data[] =
                 .secondaryId = 0x0,
             },
         [374] =
+            {
+
+                .name = {"蓝宝石"},              //道具名字
+                .itemId = 374,                    //道具编号
+                .price = 0,                      //道具价格
+                .holdEffect = 0,                 //携带效果
+                .holdEffectParam = 0,            //携带参数
+                .description = (u8*)0x083DAFD6, //道具介绍
+                .importance = 1,                 //重要道具
+                .unk19 = 1,              //unk2
+                .pocket = 2,                     //道具口袋
+                .type = 4,                       //道具类型
+                .fieldUseFunc = (void*) 0x80A2239,        //野外使用程序
+                .battleUsage = 0x0,         //战斗使用
+                .battleUseFunc = (void*) 00000000,       //战斗使用程序
+                .secondaryId = 0x0,
+            },
+		[376] =
+            {
+
+                .name = {"蓝宝石"},              //道具名字
+                .itemId = 374,                    //道具编号
+                .price = 0,                      //道具价格
+                .holdEffect = 0,                 //携带效果
+                .holdEffectParam = 0,            //携带参数
+                .description = (u8*)0x083DAFD6, //道具介绍
+                .importance = 1,                 //重要道具
+                .unk19 = 1,              //unk2
+                .pocket = 2,                     //道具口袋
+                .type = 4,                       //道具类型
+                .fieldUseFunc = (void*) 0x80A2239,        //野外使用程序
+                .battleUsage = 0x0,         //战斗使用
+                .battleUseFunc = (void*) 00000000,       //战斗使用程序
+                .secondaryId = 0x0,
+            },
+		[377] =
             {
 
                 .name = {"蓝宝石"},              //道具名字
