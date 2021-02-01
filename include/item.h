@@ -59,7 +59,6 @@ void __attribute__((long_call)) ClearItemSlots(struct ItemSlot *itemSlots, u8 b)
 
 /*
 void GetBerryCountString(u8* dst, const u8* berryName, u32 quantity);
-
 bool8 IsBagPocketNonEmpty(u8 pocket);
 bool8 CheckBagHasItem(u16 itemId, u16 count);
 bool8 AddBagItem(u16 itemId, u16 count);
