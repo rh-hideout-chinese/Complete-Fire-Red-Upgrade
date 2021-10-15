@@ -1,62 +1,62 @@
 #org @gText_SwapItemsPart1
-[BUFFER1]'s [BUFFER2] and
+[BUFFER1]的 [BUFFER2] 与
 
 #org @gText_SwapItemsPart2
-\n[BUFFER1]'s [BUFFER2]\lwere swapped![PAUSE_UNTIL_PRESS]
+\n[BUFFER1]的 [BUFFER2]\l交换开始[PAUSE_UNTIL_PRESS]
 
 #org @gMenuText_Move
-Move
+移动
 
 #org @gText_MoveItemWhere
-Move to where?
+移动去哪里?
 
 #org @gText_FieldMoveDesc_RockClimb
-Scale rocky cliffs.
+山崖的规模.
 
 #org @gText_FieldMoveDesc_Defog
-Remove foggy weather.
+大雾天气已消失.
 
 #org @gText_FieldMoveDesc_Dive
-Dive underwater.
+潜水.
 
 #org @gText_EVReducingBerryBothEffects
-[BUFFER1] became more friendly.\nHowever, its base [BUFFER2] fell![PAUSE_UNTIL_PRESS]
+[BUFFER1] 变友好了.\n不过，它的基础 [BUFFER2] 不是太好![PAUSE_UNTIL_PRESS]
 
 #org @gText_EVReducingBerryLoweredStat
-[BUFFER1] adores you!\nIts base [BUFFER2] fell![PAUSE_UNTIL_PRESS]
+[BUFFER1] 崇拜你!\n它太好了 [BUFFER2] 不是太好![PAUSE_UNTIL_PRESS]
 
 #org @gText_EVReducingBerryIncreasedFriendship
-[BUFFER1] became more friendly.\nIts base [BUFFER2] can't go lower.[PAUSE_UNTIL_PRESS]
+[BUFFER1] 变得更友好了.\n它很好 [BUFFER2] 不能再低了.[PAUSE_UNTIL_PRESS]
 
 #org @gText_FormChangeItem
-[BUFFER1] changed Forme![PAUSE_UNTIL_PRESS]
+[BUFFER1] 改变形态![PAUSE_UNTIL_PRESS]
 
 #org @gText_DNASplicersFuseWithWhich
-Fuse with which Pok\emon?[PAUSE_UNTIL_PRESS]
+宝可梦的?[PAUSE_UNTIL_PRESS]
 
 #org @gText_AlreadyHaveFused
-You already have a [BUFFER1]\nfused with a [BUFFER2].[PAUSE_UNTIL_PRESS]
+你已经有一个 [BUFFER1]\n与 [BUFFER2]的融合了.[PAUSE_UNTIL_PRESS]
 
 #org @gText_NoSpaceForDefuse
-You have no room to\nseparate the Pok\emon.[PAUSE_UNTIL_PRESS]
+你没有空间了\n你必须存放宝可梦.[PAUSE_UNTIL_PRESS]
 
 #org @gText_CantFuseWithPokemon
-It cannot be fused with\nthat Pok\emon.[PAUSE_UNTIL_PRESS]
+他不能和\n那只宝可梦n.[PAUSE_UNTIL_PRESS]
 
 #org @gText_AbilityCapsuleOfferChange
-Change [BUFFER1]'s Ability\nto [BUFFER2]?
+将[BUFFER1]的特性\n改为[BUFFER2]?
 
 #org @gText_AbilityCapsuleChangedAbility
-[BUFFER1]'s Ability has been\nchanged to [BUFFER2].[PAUSE_UNTIL_PRESS]
+[BUFFER1]的特性\n已更改为[BUFFER2].[PAUSE_UNTIL_PRESS]
 
 #org @gText_MaxPowderOfferGive
-Give the Gigantamax factor to\n[BUFFER1]?
+将超极巨化的\n特性给[BUFFER1]?
 
 #org @gText_MaxPowderOfferRevert
-Remove the Gigantamax factor from\n[BUFFER1]?
+确定从[BUFFER1]移除\n超极巨化的特性?
 
 #org @gText_MaxPowderAllowsGigantamax
-[BUFFER1] can now Gigantamax![PAUSE_UNTIL_PRESS]
+[BUFFER1]现在可以超极巨化了![PAUSE_UNTIL_PRESS]
 
 #org @gText_MaxPowderRemovesGigantamax
-[BUFFER1] can no longer Gigantamax.[PAUSE_UNTIL_PRESS]
+[BUFFER1]不能超极巨化了。[PAUSE_UNTIL_PRESS]

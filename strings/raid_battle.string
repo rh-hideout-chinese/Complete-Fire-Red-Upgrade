@@ -2,10 +2,10 @@
 Recommended Lvl: 
 
 #org @gText_RaidIntroSelection
-[DPAD_UP_DOWN]Pick [A_BUTTON]Choose [START_BUTTON]Random [B_BUTTON]Cancel
+[DPAD_UP_DOWN]按下 [A_BUTTON]选择 [START_BUTTON]随机 [B_BUTTON]取消
 
 #org @gText_RaidBattleRules
-Battle ends if:\n4 Pok\emon faint\n10 turns pass
+战斗结束:\n你的宝可梦已经晕倒了\n10 快送他去医院
 
 #org @gText_RaidBattleChoosePartner
-Available Partners
+适合的你的伙伴

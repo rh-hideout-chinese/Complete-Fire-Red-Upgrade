@@ -38,8 +38,6 @@ SpecialBuffers = {
     "LIGHT_GREEN": ["FC", "01", "07"],
     "BLUE": ["FC", "01", "08"],
     "LIGHT_BLUE": ["FC", "01", "09"],
-    "MAIN_COLOUR": ["FC", "01"],
-    "SHADOW_COLOUR": ["FC", "03"],
 
     "ARROW_UP": ["79"],
     "ARROW_DOWN": ["7A"],
@@ -78,7 +76,7 @@ SpecialBuffers = {
 
 def StringFileConverter(fileName: str):
     stringToWrite = ".thumb\n.text\n.align 2\n\n"
-    with open(fileName, 'r', encoding="ISO-8859-1") as file:
+    with open(fileName, 'r', encoding="utf-8") as file:
         maxLength = 0
         fillFF = False
         readingState = 0
@@ -134,6 +132,7 @@ def StringFileConverter(fileName: str):
 def ProcessString(string: str, lineNum: int, maxLength=0, fillWithFF=False) -> str:
     charMap = PokeByteTableMaker()
     stringToWrite = ".byte "
+    stringToWrite2 = ".word "
     buffer = False
     escapeChar = False
     bufferChars = ""
@@ -183,8 +182,17 @@ def ProcessString(string: str, lineNum: int, maxLength=0, fillWithFF=False) -> s
 
         else:
             try:
-                stringToWrite += hex(charMap[char]) + ", "
-                strLen += 1
+                if (charMap[char] > 255):
+                        if (charMap[char] < 4096):
+                            stringToWrite += hex(charMap[char])[0:2] + "0" + hex(charMap[char])[2] +", "
+                            stringToWrite += "0x" + hex(charMap[char])[3:5] + ", "
+                        else:
+                            stringToWrite += hex(charMap[char])[0:4] + ", ";
+                            stringToWrite += "0x" + hex(charMap[char])[4:6] + ", ";
+                        strLen += 2
+                else:
+                    stringToWrite += hex(charMap[char]) + ", "
+                    strLen += 1
 
             except KeyError:
                 if char == '[':
@@ -208,7 +216,7 @@ def ProcessString(string: str, lineNum: int, maxLength=0, fillWithFF=False) -> s
 
 def PokeByteTableMaker():
     dictionary = {}
-    with open(CharMap, 'r', encoding="ISO-8859-1") as file:
+    with open(CharMap, 'r', encoding="utf-8") as file:
         for line in file:
             if line.strip() != "/FF" and line.strip() != "":
                 if line[2] == '=' and line[3] != "":
@@ -219,5 +227,10 @@ def PokeByteTableMaker():
                             dictionary[line[3]] = int(line.split('=')[0], 16)
                     except:
                         pass
+                if (line[4] == '=' and line[5] != ""):
+                        try:
+                                dictionary[line[5]] = int(line.split('=')[0], 16)
+                        except:
+                            pass
         dictionary[' '] = 0
     return dictionary

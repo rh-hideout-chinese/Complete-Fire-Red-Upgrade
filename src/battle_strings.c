@@ -944,20 +944,20 @@ void BufferMoveNameBattle(u16 move, u8* dst)
 	}
 	else if (IsGMaxMove(move))
 	{
-		dst[0] = PC_G,
-		dst[1] = PC_DASH,
-		dst[2] = PC_M,
-		dst[3] = PC_a,
-		dst[4] = PC_x,
-		dst[5] = PC_SPACE, //Space
+		dst[0] = 0x02,
+		dst[1] = 0x2E,
+		dst[2] = 0x05,
+		dst[3] = 0x96,
+		dst[4] = 0x07,
+		dst[5] = 0x8E, 
 		StringCopy(&dst[6], gMoveNames[move]);
 	}
 	else if (IsAnyMaxMove(move))
 	{
-		dst[0] = PC_M,
-		dst[1] = PC_a,
-		dst[2] = PC_x,
-		dst[3] = PC_SPACE, //Space
+		dst[0] = 0x05,
+		dst[1] = 0x96,
+		dst[2] = 0x07,
+		dst[3] = 0x8E, 
 		StringCopy(&dst[4], gMoveNames[move]);
 	}
 	else

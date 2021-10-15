@@ -1,44 +1,44 @@
 #org @gText_DebugMenu_SetFlag
-Set Flag
+设置标志
 
 #org @gText_DebugMenu_GiveItem
-Give Item
+获取道具
 
 #org @gText_DebugMenu_Level100Team
-Level 100 Team
+Level 100 队伍
 
 #org @gText_DebugMenu_MaxCoinage
-Max Coinage
+大投资
 
 #org @gText_DebugMenu_AllBadges
-All Badges
+全部徽章
 
 #org @gText_DebugMenu_GameClear
-Game Clear
+游戏清除
 
 #org @gText_DebugMenu_CustomFlag
-Custom Flag
+自定义标志
 
 #org @gText_DebugMenu_Pokedexes
-Pokedexes
+图鉴
 
 #org @gText_DebugMenu_FlySpots
-Fly Spots
+飞行点
 
 #org @gText_DebugMenu_UsefulKeyItems
-Useful Key Items
+重要道具
 
 #org @gText_DebugMenu_GeneralUsefulItems
-General Useful Items
+道具
 
 #org @gText_DebugMenu_PokeBalls
-Pok\e Balls
+精灵球
 
 #org @gText_DebugMenu_Berries
-Berries
+树果
 
 #org @gText_DebugMenu_TMs
-TMs and HMs
+HM和TM
 
 #org @gText_DebugMenu_AllItems
-All Items
+全部道具

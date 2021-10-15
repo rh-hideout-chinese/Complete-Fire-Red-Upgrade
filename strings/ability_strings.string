@@ -1,96 +1,95 @@
 #org @gText_AirLockActivate
-The effects of weather\ndisappeared.
+天气消失了!
 
 #org @gText_PressureActivate
-[SCRIPTING_BANK] is exerting\nits pressure!
+[SCRIPTING_BANK]增在施压!
 
 #org @gText_MoldBreakerActivate
-[SCRIPTING_BANK] breaks\nthe mold!
+[SCRIPTING_BANK]打破常规!
 
 #org @gText_TeravoltActivate
-[SCRIPTING_BANK] is radiating\na bursting aura!
+[SCRIPTING_BANK]散发出爆炸的波导!
 
 #org @gText_TurboblazeActivate
-[SCRIPTING_BANK] is radiating\na blazing aura!
+[SCRIPTING_BANK]散发出炽烈的波导!
 
 #org @gText_SlowStartActivate
-[SCRIPTING_BANK] couldn't get\ngoing!
+[SCRIPTING_BANK]无法逃跑!
 
 #org @gText_UnnerveActivate
-[FD][37] team is too\nnervous to eat Berries!
+[FD][37]太紧张了\n无法使用树果!
 
 #org @gText_DarkAuraActivate
-[SCRIPTING_BANK] is radiating\na dark aura!
+[SCRIPTING_BANK]散发出黑色的波导!
 
 #org @gText_FairyAuraActivate
-[SCRIPTING_BANK] is radiating\na fairy aura!
+[SCRIPTING_BANK]散发着童话般的波导！
 
 #org @gText_AuraBreakActivate
-[SCRIPTING_BANK] reversed all\nother Pok\emon's auras!
+[SCRIPTING_BANK]反转了所有宝可梦的波导!
 
 #org @gText_ComatoseActivate
-[SCRIPTING_BANK] is drowsing!
+[SCRIPTING_BANK]昏昏欲睡!
 
 #org @gText_AnticipationActivate
-[SCRIPTING_BANK] shuddered!
+[SCRIPTING_BANK]正在颤抖!
 
 #org @gText_ForewarnActivate
-It was alerted to\n[EFFECT_BANK]'s\l[BUFFER][00]!
+他惊动了\n[EFFECT_BANK]的[BUFFER][00]!
 
 #org @gText_FriskActivate
-[SCRIPTING_BANK] frisked\n[TARGET] and found\lits [LAST_ITEM]!
+[SCRIPTING_BANK]搜索了[TARGET]\n发现了一个[LAST_ITEM]!
 
 #org @gText_FogIsDeep
-The fog is deep[.]
+雾很蒙[.]
 
 #org @gText_PrimordialSeaActivate
-A heavy rain began to fall!
+雨下的很大!
 
 #org @gText_DesolateLandActivate
-The sunlight turned extremely harsh!
+阳光变得很刺眼!
 
 #org @gText_DeltaStream
-Mysterious strong winds are protecting\nFlying-type Pok\emon!
+神秘的强风保护着\n飞行属性宝可梦!
 
 #org @gText_SlowStartEnd
-[SCRIPTING_BANK] got its\nact together!
+[SCRIPTING_BANK]齐心协力!
 
 #org @gText_FlashFirePowerUp
-The power of [SCRIPTING_BANK]'s\nFire-type moves rose!
+[SCRIPTING_BANK]的火属性技能\n伤害提高了!
 
 #org @gText_AbilityCuredStatusProblem
-[SCRIPTING_BANK] was cured of\nits [BUFFER][00] problem!
+[SCRIPTING_BANK]解决了[BUFFER][00]的问题!
 
 #org @gText_HealerCuredStatusProblem
-[EFFECT_BANK] was cured of\nits [BUFFER][00] problem!
+[EFFECT_BANK]解决了[BUFFER][00] 的问题!
 
 #org @gText_MagicBounce
-[SCRIPTING_BANK] bounced the\n[CURRENT_MOVE] back!
+[SCRIPTING_BANK]将[CURRENT_MOVE]反弹了!
 
 #org @gText_StartedSchooling
-[SCRIPTING_BANK] formed\na school!
+[SCRIPTING_BANK]建立了一所学校!
 
 #org @gText_StoppedSchooling
-[SCRIPTING_BANK] stopped\nschooling!
+[SCRIPTING_BANK]已停止上学!
 
 #org @gText_GorillaTacticsMoveMenuBlockage
-[CURRENT_MOVE] can't be selected\nbecause of [LAST_ABILITY]!\p
+由于[CURRENT_MOVE]无法选择\n[LAST_ABILITY]!\p
 
 #org @gText_IceFaceTookDamage
-The Ice Face took damage for\n[TARGET]!
+结冻头受到了\n来自[TARGET]的伤害!
 
 #org @gText_IceFaceBusted
-[TARGET]'s Ice Face\nshattered!
+[TARGET]的头受到了伤害!
 
 #org @gText_ScreenCleanerActivate
-All screens on the field were\ncleansed!
+场上的所有屏障\n被消除了!
 
 #org @gText_NeutralizingGasActivate
-Neutralizing Gas fills the area!
+化学变化气体充满了场地!
 
 #org @gText_NeutralizingGasEnd
-The effects of Neutralizing Gas\nwore off!
+化学变化气体的效果消失了!
 
 #org @gText_PkmnHurtsWith
-[ATTACKER] was hurt!
-
+[ATTACKER] 受伤了!

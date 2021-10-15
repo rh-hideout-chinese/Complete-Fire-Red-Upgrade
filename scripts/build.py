@@ -9,6 +9,7 @@ from pathlib import Path
 import subprocess
 import sys
 from string import StringFileConverter
+from string import ProcessString
 from make import ChangeFileLine
 import platform
 
@@ -237,7 +238,7 @@ def ProcessC(cFile: str) -> str:
     return objectFile
 
 
-def ProcessString(stringFile: str) -> str:
+def ProcessString2(stringFile: str) -> str:
     """Build and assemble strings."""
     assemblyFile = stringFile.split('.string')[0] + '.s'
     objectFile = MakeGeneralOutputFile(assemblyFile)[0]
@@ -367,14 +368,30 @@ def RunGlob(globString: str, fn) -> map:
         files = Path(directory).glob(globString)
         return map(fn, map(str, files))
 
+def build_item_data():
+    datafiles = open("item.c","r",encoding="utf-8")
+    strings = datafiles.readlines()
+    datafiles2 = open("src/item_data.c","w",encoding="utf-8")
+    for i in strings:
+        if "{\"" in i:
+            txt = i.split('"')
+            if "static" in i:
+                datafiles2.write(txt[0] + ProcessString(txt[1],0,0,False).replace(".byte","") + "0xFF" + txt[2])
+            else:
+                datafiles2.write(txt[0] + ProcessString(txt[1],0,13,True).replace(".byte","") + "0xFF" + txt[2])
+        else:
+            datafiles2.write(i)
+    datafiles.close()
+    datafiles2.close()
 
 def main():
     Master.init()
+    build_item_data()
     startTime = datetime.now()
     globs = {
             '**/*.s': ProcessAssembly,
             '**/*.c': ProcessC,
-            '**/*.string': ProcessString,
+            '**/*.string': ProcessString2,
             '**/*.png': ProcessImage,
             '**/*.bmp': ProcessImage,
             '**/*.wav': ProcessAudio,

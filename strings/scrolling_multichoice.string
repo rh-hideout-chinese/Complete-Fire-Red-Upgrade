@@ -3,33 +3,33 @@
 #ifdef SCROLLING_MULTICHOICE
 
 #org @sExampleText_1
-Example 1
+例子 1
 
 #org @sExampleText_2
-Example 2
+例子 2
 
 #org @sExampleText_3
-Example 3
+例子 3
 
 #org @sExampleText_4
-Example 4
+例子 4
 
 #org @sExampleText_5
-Example 5
+例子 5
 
 #org @sExampleText_6
-Example 6
+例子 6
 
 #org @sExampleText_7
-Example 7
+例子 7
 
 #org @sExampleText_8
-Example 8
+例子 8
 
 #org @sExampleText_9
-Example 9
+例子 9
 
 #org @sExampleText_10
-Example 10
+例子 10
 
 #endif
